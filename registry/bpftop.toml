@@ -1,0 +1,4 @@
+backends = ["aqua:jfernandez/bpftop", "github:jfernandez/bpftop"]
+description = "A dynamic real-time view of running eBPF programs"
+os = ["linux"]
+test = { cmd = "bpftop --version", expected = "{{version}}" }
